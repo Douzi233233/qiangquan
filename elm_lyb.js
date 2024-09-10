@@ -13,11 +13,11 @@
     validateCarmeWithType,
     checkCarmeCount,
     tryCatchPromise
-  } = require("./common2.js"),
+  } = require("./common.js"),
   request = require("request"),
   {
     wait
-  } = require("./common2"),
+  } = require("./common"),
   GAME_TYEP = 6,
   kami = process.env.ELE_CARME;
 function isEmpty(_0x382618) {
